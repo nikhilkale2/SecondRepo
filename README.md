@@ -13,3 +13,5 @@ college: RSML, Latur
 Address: Dogargaon (Bori), TQ. Shirur Anantpal, Dist: Latur.
 <br>
 Mobile: 6545458784
+<br>
+Hobbie: Cricket, Coding, reading book
