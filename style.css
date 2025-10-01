@@ -5,7 +5,30 @@
 }
 
 body {
-  background-color: yellow;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-align: center;
+  background-color: midnightblue;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator {
+  width: 500px;
+  box-shadow: 7px 7px 20px black, -7px -7px 20px slateblue;
+  padding: 20px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+button {
+  padding: 20px 0;
+  font-size: 1.2rem;
+  border-radius: 20px;
 }
